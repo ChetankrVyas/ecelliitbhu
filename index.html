@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">x
+        <div class="header">
+            <h2>TASK-1</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Name</label>
+                <input type="text" placeholder="chetan" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="abcd@gmail.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Mobile Number</label>
+                <input type="number" placeholder="Mobile Number" id="mobileno" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Subject</label>
+                <input type="text" placeholder="subject" id="subject" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Your Message</label>
+                <input type="text" placeholder="message" id="urmessage" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+        
+            <button onclick="window.location.reload();">Submit</button>
+        
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <script src="firebase.js"></script>
+    <!-- // Import the functions you need from the SDKs you need -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+    </script>
+</body>
+
+</html>
